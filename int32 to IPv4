@@ -38,15 +38,17 @@ console.log(decimal1)
   }
   else if(list.length > 8 && list.length<=16)
   {
-      if(j<=list.length-8)
+      if(j>=list.length-8)
       {
         decimal1 = list[j] * Math.pow(2,i) + decimal1
         i = i + 1
+        console.log(decimal1)
       }
     else
     {
        decimal2 = list[j] * Math.pow(2,a) + decimal2
       a = a + 1
+      console.log(decimal2)
     }
   }
   else if(list.length >16 && list.length <=24)
