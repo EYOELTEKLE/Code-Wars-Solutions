@@ -58,3 +58,15 @@ function VigenèreCipher(key, abc) {
 		return ans.join('');
 	};
 }
+/**
+define the aplhabets as a string(you can use any alphabets)
+Example -( let alphabet = 'abcdefghijklmnopqrstuvwxyz';)
+deine the key as a string 
+Example - (let key = "password")
+Instantiate the functional class
+let VigerenCode = new VigenèreCipher(key, alphabet);
+
+use the methods encode and decode for encryption and decrytpion
+VigerenCode.encode("test");
+VigerenCode.decode("decode");
+**/
