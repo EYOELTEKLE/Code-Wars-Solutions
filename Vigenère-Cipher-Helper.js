@@ -61,7 +61,7 @@ function VigenèreCipher(key, abc) {
 /**
 define the aplhabets as a string(you can use any alphabets)
 Example -( let alphabet = 'abcdefghijklmnopqrstuvwxyz';)
-deine the key as a string 
+define the key as a string 
 Example - (let key = "password")
 Instantiate the functional class
 let VigerenCode = new VigenèreCipher(key, alphabet);
